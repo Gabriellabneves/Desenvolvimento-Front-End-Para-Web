@@ -1,0 +1,104 @@
+!!COMO CRIAR UM FORMULÁRIO
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style> label{display: block; margin-bottom: 10px;}</style>
+</head>
+<body>
+    <form action="" method="get">
+        <label> Nome
+            <input type="text" name="name">
+        </label>
+        <label>E-mail
+            <input type="email" name="email">
+        </label>
+        <label>Idade
+            <input type="number" name="number" min="1"
+            max="120">
+        </label>
+        <label> Data de Nascimento
+            <input type="date" name="data_nasc">
+        </label>
+        <label> Senha
+            <input type="password" name="senha">
+        </label>
+        <label> Arquivo
+            <input type="file" name="Arquivo">
+        </label>
+        <label>Gênero</label>
+        <label> <input type="radio" name="Gênero" value="masculino"> Masculino </label>
+        <label> <input type="radio" name="Gênero" value="feminino"> Feminino </label>    
+        <label> <input type="radio" name="Gênero" value="outro"> Outro </label>
+
+
+        <label>Esportes</label>
+        <label> <input type="checkbox" name="Esportes"
+            value="futebol"> Futebol</label>
+        <label> <input type="checkbox" name="Esportes"
+            value="natacao"> Natação</label>
+        <label> <input type="checkbox" name="Esportes"
+            value="ciclismo"> Ciclismo</label>
+        <label> <input type="checkbox" name="Esportes"
+            value="volei"> Vôlei</label>
+        <label> UF
+            <select name="UF">
+                <optgroup label="Centro-Oeste">
+                    <option value="DF">DF</option>
+                    <option value="GO">GO</option>
+                    <option value="MT">MT</option>
+                </optgroup>
+                <optgroup label="Nordeste">
+                    <option value="PI">PI</option>
+                    <option value="MA">MA</option>
+                    <option value="CE">CE</option>
+                </optgroup>
+            </select>
+        </label>
+        <label>Mensagem
+            <textarea name="Mensagem" rows="5"
+            cols="30"></textarea>
+        </label>
+
+
+        <input type="hidden" name="enviar-dados-oculto">
+        <button type="submit">Enviar</button>
+   
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+!!WEB SEMÂNTICA HTML
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav></nav>
+    </header>
+    <main>
+        <aside></aside>
+        <section>
+            <article></article>
+        </section>
+    </main>
+    <footer> </footer>
+</body>
+</html>
+
+
+!!single page, one page,multi page, landing page (eventos ou promocional), website ou site (empresarial ou institucional), portal(outros sites!!
