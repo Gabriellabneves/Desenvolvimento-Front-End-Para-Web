@@ -1,0 +1,84 @@
+<!--Estrutura base do HTML--!>
+<!DOCTYPE html> 
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title> texto </title>
+   <h1> Titulo Grande</h1> <!--tamanhos de titulos--!>
+   <h2> Titulo</h2>
+   <h3> Titulo</h3>
+   <h4> Titulo</h4>
+   <h5> Titulo</h5>
+   <h6> Titulo Pequeno</h6>
+  </head>
+  
+<body>
+	<p class="lorem_ipsum"></p> <!--paragrafos--!>
+
+<!--Listas ordenadas--!>
+  !!1.!!
+  <ol> 
+    <li> item</li>
+    <li> item</li>
+    <li> item</li>
+    
+!!ou!!
+   <ol type="1"> 
+    <li> item</li>
+    <li> item</li>
+    <li> item</li>
+     
+  !!2.!!
+   <ol type="A"> 
+    <li> item</li>
+    <li> item</li>
+    <li> item</li>
+       
+  !!3.!!
+    <ol type="I"> 
+    <li> item</li>
+    <li> item</li>
+    <li> item</li>
+     
+<!--Listas não ordenadas--!>
+   !!1.!!
+    <ul> 
+    <li> item</li>
+    <li> item</li>
+    <li> item</li
+      
+   !!ou!!
+   <ul type="desc"> 
+    <li> item</li>
+    <li> item</li>
+    <li> item</li>
+      
+   !!2.!!
+    <ul type="circle"> 
+    <li> item</li>
+    <li> item</li>
+    <li> item</li>
+     
+   !!3.!!
+    <ul type="square"> 
+    <li> item</li>
+    <li> item</li>
+    <li> item</li>
+      
+  <!--Listas de definições--!>
+      <dl>
+        <dt> titulo</dt>
+        <dd> item basico</dd>
+        <dd> item intermediario</dd>
+        <dd> item avançado</dd>
+        
+        <dt> titulo 2</dt>
+        <dd> item basico</dd>
+        <dd> item intermediario</dd>
+        <dd> item avançado</dd>
+        
+     
+</body>
+
+</html>
